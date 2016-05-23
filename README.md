@@ -4,7 +4,9 @@ This is an NLP Based question answering system with a recommendation system inte
 
 It has three parts
 1. A question answering system which with the help of a set of API's answers questions.
+
 2. A Categorization system which uses Naive Bayes Classifier to classify questions the NBC is trained upon a dataset of 2300 questions of 10 categories.
+
 3. A Recommendation System which is based on Pearson Collaberation, used to recommend users a set of questions they might be interested in based on their previous queries.
 
 How to set up? 
