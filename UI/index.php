@@ -36,7 +36,7 @@ $("#spin").show();
 	'margin-left':'100px'
 	});
 	$("#right").css({'width':'500px','background-color':'transparent'});
-        $.getJSON("https://anghora-fawwaz94.c9users.io/",{"q":$q,"id":id}, function(result){
+        $.getJSON("http://localhost:5000/",{"q":$q,"id":id}, function(result){
 			$("#spin").hide();
             $.each(result, function(i, field){
 			if(i=="correction")
