@@ -17,7 +17,7 @@ Website: https://htmlcssphptutorial.wordpress.com
 <?php
 	/*require('db.php');*/
     // If form submitted, insert values into the database.1
-    $conn = mysqli_connect(getenv('IP'),getenv('C9_USER'), "","c9",3306);
+    $conn = mysqli_connect(getenv('IP'),getenv('C9_USER'), "","c9",3306); //enter you login credentials here (host,username,password,new_link,client_flag)
     if (isset($_POST['username'])){
         $username = $_POST['username'];
 		$email = $_POST['email'];
