@@ -29,14 +29,14 @@ output will be a json object.
 
 ******Creating Database for users*******
 
-*Create a database for the users with fields like id,name,emailid and password.
+* Create a database for the users with fields like id,name,emailid and password.
 
 OR
 
-*Import users.sql  (UI/users.sql) to your database # a table wit 10 users will be created
+* Import users.sql  (UI/users.sql) to your database # a table wit 10 users will be created
 * Enter login credentials of the database in UI/login.php and UI/registration.php
-*Run apache server or any equivalent server for php
-*Run frontend.php (UI/frontend.php) in the browser
+* Run apache server or any equivalent server for php
+* Run frontend.php (UI/frontend.php) in the browser
 
 That's it Enter any query and see the answers........
 
